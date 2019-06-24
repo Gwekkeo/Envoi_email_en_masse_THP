@@ -49,6 +49,23 @@ Envoi_email_en_masse_THP
     - done.rb
     - index.rb
 
+### Description du projet :
+
+Le programme s'exécute en trois temps :
+
+1) "Scrapping" des mairies des départements d'Outre Mer (Martinique, Guyane & île de la Réunion)
+    On obtient ainsi le nom de l'élu "..." l'adresse e-mail de la ville "..." et enfin le code postal
+
+2) "Follow des comptes Twitter" des 80 mairies via le handle @Rubyaskip
+
+3) "Envoie d'e-mails" de présentation de THP, aux mairies scrappées
+
+Entrer votre prénom et nom="..."
+
+Entrer le début du login de votre e-mail (SANS @xxxxx.com)"..."
+
+Entrer enfin le mot de passe de votre boîte mail
+
 ### Equipe :
 
 - Gwen
@@ -58,7 +75,3 @@ Envoi_email_en_masse_THP
 - Rid
 - Louis
 - Huguens
-
-### Description du projet :
-
-Nous avons décidé de sélectionner email et les twitters des mairies des départements Outre Mer de la Martinique, la Guyane et de La Réunion. Ils comptent à eux trois 80 mairies. Nous les avons follow avec le handle @Rubyaskip et envoyé un email de présentation de THP.
